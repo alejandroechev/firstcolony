@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>  
+  <levels>
+    <!--<level class="FirstColonyLibrary.Levels.IndividualTraining, FirstColonyLibrary" file="Level1.xml"/>
+    <level class="FirstColonyLibrary.Levels.GroupTraining, FirstColonyLibrary" file="Level2.xml"/>-->
+    <level class="ARGame.Levels.Level1, ARGame" file="XMLLevel/Level1.xml"/>
+    <level class="ARGame.Levels.Level2, ARGame" file="XMLLevel/Level2.xml"/>
+    <level class="ARGame.Levels.Level4, ARGame" file="XMLLevel/Simple.xml"/>
+    <level class="ARGame.Levels.Level4b, ARGame" file="XMLLevel/Incoming.xml"/>
+    <level class="ARGame.Levels.Level5, ARGame" file="XMLLevel/Distance.xml"/>
+
+  </levels>
+</game>

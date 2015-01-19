@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>  
+  <!-- List of all the levels of the game. The parameteres for each levels the Class that implements it, the XML file with the 
+  description and the specific parameteres of the level, including the winning condition (objective), and if there was help provided to the students
+  by showing the force vectors with arrows -->
+  <levels>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial1.xml" objective ="move" move="true" shoot="false" forcefield ="false" chargeChange="false" chargeShow="false" chargeValue="0" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial2.xml" objective ="activateCharge" move="false" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false"/>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial3.xml" objective ="crystals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial4.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial5.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="false" chargeShow="true" chargeValue="10" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial6.xml" objective ="shoot" move="true" shoot="true" forcefield ="false" chargeChange="false" chargeShow="false" chargeValue="0" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial7.xml" objective ="shootAndPortals" move="true" shoot="true" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Tutorial8.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="true" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision1.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision2.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision3.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision4.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision5.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false"/>
+  </levels>
+</game>

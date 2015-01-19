@@ -1,0 +1,6 @@
+Tamaño Slider: 80 x 400
+Posición Fondo: 0 x 0
+Posición Botón Más: 10 x 20
+Posición Botón Menos: 10 x 317
+Posición Medidor: 20 x 73
+Posición Marcador/Cristal: 15 x 188

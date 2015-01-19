@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>  
+  <levels>
+    <level class="Astronautas2D.Levels.SoloLevel, Astronautas2D" file="XMLLevels/Tutorial4.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true" tutorial="true"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Tutorial8.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="true" showIndividualForces="true" tutorial="true"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision1.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true" tutorial="false"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision2.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="true" tutorial="false"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision3.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false" tutorial="false"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision4.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false" tutorial="false"/>
+    <level class="Astronautas2D.Levels.TeamLevel, Astronautas2D" file="XMLLevels/Mision5.xml" objective ="crystalsAndPortals" move="true" shoot="false" forcefield ="true" chargeChange="true" chargeShow="true" showTotalForce="false" showIndividualForces="false" tutorial="false"/>
+  </levels>
+</game>

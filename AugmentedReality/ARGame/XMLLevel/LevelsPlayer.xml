@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>  
+  <levels>
+    
+    <level class="ARGame.PlayerMisionBase, ARGame" file="XMLLevel/Mision1-facil.xml"/>
+    <level class="ARGame.PlayerMisionBase, ARGame" file="XMLLevel/Laberinto.xml"/>
+    
+    <level class="ARGame.PlayerMisionComplementarity, ARGame" file="XMLLevel/Mision6.xml"/>
+    <level class="ARGame.PlayerMisionComplementarity, ARGame" file="XMLLevel/Laberinto.xml"/>
+
+    <level class="ARGame.PlayerMisionSharedOperative, ARGame" file="XMLLevel/Mision5.xml"/>
+    <level class="ARGame.PlayerMisionSharedOperative, ARGame" file="XMLLevel/Laberinto.xml"/>
+
+    <level class="ARGame.PlayerEnd, ARGame" file="XMLLevel/MissionEnded.xml"/>
+  </levels>
+</game>

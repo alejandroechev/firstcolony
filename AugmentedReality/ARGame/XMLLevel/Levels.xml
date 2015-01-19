@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>  
+  <levels>
+    
+    <!--<level class="ARGame.Levels.Level1, ARGame" file="XMLLevel/Level1.xml"/>
+    <level class="ARGame.Levels.Level2, ARGame" file="XMLLevel/Level2.xml"/>
+    <level class="ARGame.Levels.Level4, ARGame" file="XMLLevel/Simple.xml"/>
+    -->
+    <level class="ARGame.Levels.Level4b, ARGame" file="XMLLevel/Incoming.xml"/>
+    <level class="ARGame.Levels.Level5, ARGame" file="XMLLevel/Distance.xml"/>
+    
+    <level class="ARGame.Levels.Mision1, ARGame" file="XMLLevel/Mision1-facil.xml"/>
+    <level class="ARGame.Levels.Mision1, ARGame" file="XMLLevel/Laberinto.xml"/>
+    
+    <level class="ARGame.Levels.Mision3, ARGame" file="XMLLevel/Mision6.xml"/>
+    <level class="ARGame.Levels.Mision3, ARGame" file="XMLLevel/Laberinto.xml"/>
+    
+    <level class="ARGame.Levels.Mision1, ARGame" file="XMLLevel/Mision5.xml"/>
+    <level class="ARGame.Levels.Mision1, ARGame" file="XMLLevel/Laberinto.xml"/>
+    
+    <level class="ARGame.Levels.End, ARGame" file="XMLLevel/Level1.xml"/>
+    
+  </levels>
+</game>

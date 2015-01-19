@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <object_list>
+    <astronaut mass="1" player ="0">
+      <position x="150" y="300" z="0.0"/>
+      <scale x="0.7" y="0.7" z="0.7"/>
+    </astronaut>
+    <astronaut mass="1" player ="1">
+      <position x="150" y="450" z="0.0"/>
+      <scale x="0.7" y="0.7" z="0.7" />
+    </astronaut>
+    <astronaut mass="1" player ="2">
+      <position x="150" y="600" z="0.0"/>
+      <scale x="0.7" y="0.7" z="0.7" />
+    </astronaut>
+    <crystal mass="3.0" charge ="10" inertial="false" divisible="true" player ="0">
+      <scale x="1" y="1" z="1"/>
+      <position x="600" y="300" z="0" />
+      <velocity x="0.0" y="0.0" z="0.0"/>
+    </crystal>
+    <crystal mass="3.0" charge ="10" inertial="false" divisible="true" player ="1">
+      <scale x="1" y="1" z="1"/>
+      <position x="600" y="450" z="0" />
+      <velocity x="0.0" y="0.0" z="0.0"/>
+    </crystal>
+    <crystal mass="3.0" charge ="10" inertial="false" divisible="true" player ="2">
+      <scale x="1" y="1" z="1"/>
+      <position x="600" y="600" z="0" />
+      <velocity x="0.0" y="0.0" z="0.0"/>
+    </crystal>
+    <portal player ="0">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="1300" y="300" z="0" />
+    </portal>
+    <portal player ="1">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="1300" y="450" z="0" />
+    </portal>
+    <portal player ="2">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="1300" y="600" z="0" />
+    </portal>
+  </object_list>
+  <positions>
+    <respawn x="150" y="450" z="0" />
+    <respawn x="450" y="450" z="0" />
+    <respawn x="750" y="450" z="0" />
+    <respawn x="150" y="600" z="0" />
+    <respawn x="450" y="600" z="0" />
+    <respawn x="750" y="600" z="0" />
+  </positions>
+</scene>

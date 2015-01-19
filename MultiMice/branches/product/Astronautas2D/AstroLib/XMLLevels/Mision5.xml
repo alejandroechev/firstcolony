@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <object_list>
+    <astronaut mass="1" player ="0">
+      <position x="100" y="200" z="0.0"/>
+      <scale x="0.7" y="0.7" z="0.7"/>
+    </astronaut>
+    <astronaut mass="1" player ="1">
+      <position x="250" y="200" z="0.0"/>
+      <scale x="0.7" y="0.7" z="0.7" />
+    </astronaut>
+    <astronaut mass="1" player ="2">
+      <position x="400" y="200" z="0.0"/>
+      <scale x="0.7" y="0.7" z="0.7" />
+    </astronaut>
+    <crystal mass="3.0" charge ="10" inertial="false" divisible="true">
+      <scale x="1" y="1" z="1"/>
+      <position x="900" y="200" z="0" />
+      <velocity x="0.0" y="0.0" z="0.0"/>
+    </crystal>
+    <portal>
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="1250" y="200" z="0" />
+    </portal>
+    <!-- Primera cascada horizontal-->
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="1540" y="400" z="0" />
+      <velocity x="-0.1" y="0.0" z="0.0"/>
+      <lifetime value ="15900" wait="0"/>
+      <spawnposition x="1540" y="400" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="1540" y="400" z="0" />
+      <velocity x="-0.1" y="0.0" z="0.0"/>
+      <lifetime value ="15900" wait ="5000"/>
+      <spawnposition x="1540" y="400" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="1540" y="400" z="0" />
+      <velocity x="-0.1" y="0.0" z="0.0"/>
+      <lifetime value ="15900" wait ="10000"/>
+      <spawnposition x="1540" y="400" z="0.0"/>
+    </asteroid>
+    <!--Segunda cascada horizontal-->
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="1540" y="650" z="0" />
+      <velocity x="-0.2" y="0.0" z="0.0"/>
+      <lifetime value ="7950" wait ="2000"/>
+      <spawnposition x="1540" y="650" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="1540" y="650" z="0" />
+      <velocity x="-0.2" y="0.0" z="0.0"/>
+      <lifetime value ="7950" wait ="6000"/>
+      <spawnposition x="1540" y="650" z="0.0"/>
+    </asteroid>
+    <!--Cascadas verticales-->
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="550" y="1000" z="0" />
+      <velocity x="0.0" y="-0.2" z="0.0"/>
+      <lifetime value ="5250" wait ="0"/>
+      <spawnposition x="550" y="1000" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="800" y="-100" z="0" />
+      <velocity x="0.0" y="0.1" z="0.0"/>
+      <lifetime value ="10500" wait ="3600"/>
+      <spawnposition x="800" y="-100" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="1050" y="1000" z="0" />
+      <velocity x="0.0" y="-0.2" z="0.0"/>
+      <lifetime value ="5250" wait ="1800"/>
+      <spawnposition x="1050" y="1000" z="0.0"/>
+    </asteroid>
+    <!--Cuarta cascada
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="870" y="1000" z="0" />
+      <velocity x="0.0" y="-0.2" z="0.0"/>
+      <lifetime value ="5250" wait ="0"/>
+      <spawnposition x="870" y="1000" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="870" y="1000" z="0" />
+      <velocity x="0.0" y="-0.2" z="0.0"/>
+      <lifetime value ="5250" wait ="1750"/>
+      <spawnposition x="870" y="1000" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true" lifetime="true">
+      <scale x="0.7" y="0.7" z="1.0"/>
+      <position x="870" y="1000" z="0" />
+      <velocity x="0.0" y="-0.2" z="0.0"/>
+      <lifetime value ="5250" wait ="3500"/>
+      <spawnposition x="870" y="1000" z="0.0"/>
+    </asteroid>
+    -->
+  </object_list>
+    <positions>
+    <respawn x="100" y="100" z="0" />
+    <respawn x="250" y="800" z="0" />
+      <!--<respawn x ="920" y ="800" z ="0"/>
+    <respawn x ="675" y ="530" z ="0"/>
+    <respawn x ="675" y ="800" z ="0"/>
+    <respawn x="900" y="200" z="0" />-->
+  </positions>
+  <objective type ="crystals"/>
+</scene>

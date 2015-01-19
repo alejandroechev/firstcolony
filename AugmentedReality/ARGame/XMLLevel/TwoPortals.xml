@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<scene>
+  <object_list>
+    <astronaut mass="1">
+      <position x="10.43812" y="-0.657846" z="0.0"/>
+      <scale x="1" y="1" z="1" />
+    </astronaut>   
+    <crystal mass="0.01" charge ="50" inertial="false" divisible="false">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="0" y="1.596448" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+    </crystal>
+    <portal >
+      <scale x="1.5" y="1.5" z="1.0"/>
+      <position x="-12.34519" y="1.596448" z="0.0"/>
+    </portal>
+    <portal >
+      <scale x="1.5" y="1.5" z="1.0"/>
+      <position x="12.34519" y="1.596448" z="0.0"/>
+    </portal>
+    
+  </object_list>
+</scene>

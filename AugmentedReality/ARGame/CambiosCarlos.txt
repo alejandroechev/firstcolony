@@ -1,0 +1,21 @@
+﻿
+Cambios realizados por TPD.CarlosDeuster
+
+26/08/2010
+* Crear este archivo
+* Agregar carpeta GameGUI en ARGame
+* Agregar clase GameGUI.cs a GameGUI (la misma clase GameGUI.cs que tiene FirstColony)
+* Agregar clase GamePlayGUI.cs a GameGUI (la misma clase GamePlayNewGUI.cs que tiene FirstColony)
+* Agregar metodo GetFont a ContentManager 
+* Modificar lineas que tienen ClientMainManager dentro de GameGUI y GamePlayGUI para que no requieran de ClientMainManager
+* Agregar clase ClientContentManager.cs y MainManager.cs a Utils, estas clases cumplen con hacer la función de ClientMainManager 
+  de FirstColony pero solo para las clases GameGUI y GamePlayGUI. Lamentablemente fracase en ello.
+  
+12/09/2010
+* Agregue el boton ForceFieldButton2 al lado del ForceFieldButton y lo deje funcionando, cambie el la textura del panel para que no
+  se vea igual a la del primer boton, porque se ve feo.
+* Borrar lo hecho anteriormente.
+
+14/09/2010
+* Agregar texto a los niveles junto a mauricio.
+* Correccion texto de TextField a Label (para sacar lo blanco)

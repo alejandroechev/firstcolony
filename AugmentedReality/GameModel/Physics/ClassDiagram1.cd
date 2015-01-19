@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameModel.KinematicBody">
+    <Position X="1.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMwAEAAAAABgBAABAAAAIBAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Physics\KinematicBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameModel.Asteroid">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQIAAAACIYAAAAgAAAAAAAAAAAAAAAAgAAAEAGgAAA=</HashCode>
+      <FileName>Physics\Objects\Asteroid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameModel.Portal">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAIQAAAAhAAAAIAAAAAAAAAAAAAAAAACgAAA=</HashCode>
+      <FileName>Physics\Objects\Portal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameModel.Crystal">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAACIQAAAAgAAQAAAAAAAAAAAAAAAAAAAGgAAA=</HashCode>
+      <FileName>Physics\Objects\Crystal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="GameModel.Astronaut">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQIBAAACIQAAAAhAAAAIBAAACAAAAAIAAAAAACgAAA=</HashCode>
+      <FileName>Physics\Objects\Astronaut.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="GameModel.IElectricBody">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Physics\IElectricBody.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameModel.IPhysicBody">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPhysicBody.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameModel.ICollisionBody" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Physics\ICollissionBody.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GameModel.ICollisionSphere" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\ICollissionBody.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

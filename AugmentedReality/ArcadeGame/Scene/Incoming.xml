@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<scene>
+  <object_list>
+    <astronaut mass="1">
+      <position x="10.43812" y="-0.657846" z="0.0"/>
+      <scale x="1" y="1" z="1" />      
+    </astronaut>
+    <astronaut mass="1">      
+      <position x="0.2588835" y="12.38326" z="0.0"/>
+      <scale x="1" y="1" z="1" />
+    </astronaut>    
+    <astronaut mass="1">
+      <position x="1.682743" y="-10.78681" z="0.0"/>
+      <scale x="1" y="1" z="1" />
+    </astronaut>
+    <crystal mass="0.001" charge ="20" inertial="false" divisible="false">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="2.906459" y="1.660855" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>      
+    </crystal>
+    <portal >
+      <scale x="1.5" y="1.5" z="1.0"/>      
+      <position x="-17.34519" y="1.596448" z="0.0"/>      
+    </portal>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>      
+      <position x="-0.862945" y="-6.946706" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-10.9594" y="9.017775" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="0" y="0" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-4.616755" y="9.190363" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-3.365485" y="-7.119296" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-10.31219" y="-6.558382" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-7.766505" y="9.190363" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-1.769037" y="9.060922" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="0.9060922" y="8.543155" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="5" y="5" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="6.170056" y="2.157362" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="5" y="-3" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="1.769037" y="-6.472087" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="true" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-8.850028" y="5" z="0.0"/>
+      <velocity x="3.0" y="0.0" z="0.0"/>
+      <spawnposition x="-12.0" y="5.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="true" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-8.850028" y="-3" z="0.0"/>
+      <velocity x="3.0" y="0.0" z="0.0"/>
+      <spawnposition x="-12.0" y="-3.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="true" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="-10.687823" y="1.337565" z="0.0"/>
+      <velocity x="2.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+      <sunposition x="-17.34519" y="1.596448" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="4.659903" y="-6.385793" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="3.581222" y="7.550768" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+    <asteroid mass="1.0" inertial="true" gravitational="false" destroyable="false" spawnable="true">
+      <scale x="1.0" y="1.0" z="1.0"/>
+      <position x="6.256351" y="-0.3020307" z="0.0"/>
+      <velocity x="0.0" y="0.0" z="0.0"/>
+      <spawnposition x="0.0" y="0.0" z="0.0"/>
+    </asteroid>
+  </object_list> 
+</scene>

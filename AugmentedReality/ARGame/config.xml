@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config> 
+
+  <section name="main">
+    <param name="gameMode" value="0"/> <!-- 0= singleplayer, 1=netplayer, 2=netserver -->
+    <param name="videoDevice" value="1"/>
+    <param name="fullScreen" value="false"/>
+    <param name="handleRecovery" value="false"/>
+    <param name="hasTraining" value="true"/>
+    <param name="firstLevel" value="0"/>
+    <param name="highPriority" value="false"/>
+  </section>
+ 
+</config> 

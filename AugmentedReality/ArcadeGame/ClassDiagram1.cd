@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArcadeGame.Game1">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ArcadeGame.Game1.Text" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAQAEEAAAEAQAwAAAAAAAIAEAAQAAAgAAAAAAABAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArcadeGame.Program" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArcadeGame.Scene">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ArcadeGame.Scene.Text" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scene.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAQAQQAAAAEARQAIAAEAAQAAAAAAAAA=</HashCode>
+      <FileName>Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArcadeGame.SceneAsteroid" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAAAAAoAAAIAAAAIAAAACIAAAAAAAgAACAAEAAAA=</HashCode>
+      <FileName>SceneObjects\SceneAsteroid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ArcadeGame.SceneAstronaut" BaseTypeListCollapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQRAAAAAgAAAIAAAAIAAAACIAAAAAAAgAACAgEAAAA=</HashCode>
+      <FileName>SceneObjects\SceneAstronaut.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ArcadeGame.GameObject">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAIAAAAIAAAAAIAAAAAAAgAACAAEAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

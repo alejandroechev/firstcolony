@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>  
+  <levels>
+    <!--<level class="FirstColonyLibrary.Levels.IndividualTraining, FirstColonyLibrary" file="Level1.xml"/>
+    <level class="FirstColonyLibrary.Levels.GroupTraining, FirstColonyLibrary" file="Level2.xml"/>-->
+    <level class="ARGame.SharedResultantActionLevel, ARGame" file="XMLLevel/Mision1-facil.xml"/>
+    <level class="ARGame.SharedResultantActionLevel, ARGame" file="XMLLevel/Laberinto.xml"/>
+    
+    <level class="ARGame.ComplementarityLevel, ARGame" file="XMLLevel/Mision6.xml"/>
+    <level class="ARGame.ComplementarityLevel, ARGame" file="XMLLevel/Laberinto.xml"/>
+
+    <level class="ARGame.SharedOperativeActionLevel, ARGame" file="XMLLevel/Mision5.xml"/>
+    <level class="ARGame.SharedOperativeActionLevel, ARGame" file="XMLLevel/Laberinto.xml"/>
+
+
+    <level class="ARGame.ServerMissionEnded, ARGame" file="XMLLevel/MissionEnded.xml"/>
+  </levels>
+</game>
